@@ -5,6 +5,7 @@ body {
     font-family: "Ubuntu", sans-serif;
 }
 
+/*Header*/
 header {
     background-color:  #bae8e8;
     margin: auto;
@@ -17,6 +18,7 @@ h1 {
     text-align: center;
 }
 
+/*Main body*/
 main{
     padding: 20px;
 }
@@ -33,10 +35,8 @@ img {
     max-width: 50%;
     max-height: 50%;
 }
-ul {
-    list-style-type: none;
-}
 
+/*Footer and list style */
 footer {
     background-color:  #bae8e8;
 }
@@ -44,13 +44,10 @@ footer {
 ul{
     text-align: center;
     padding: 10px;
+    list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
+/*Link hovers */
 a:hover{
     color: #272343;  
 }
@@ -59,6 +56,12 @@ a:visited{
     color: purple;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*2 columns grid in the main section  */
 .two-columns-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,7 +70,6 @@ a:visited{
     padding: 20px;
     
 }
-
 
 .two-columns-grid > {
     padding:1rem;
