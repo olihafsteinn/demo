@@ -1,41 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu?category=Serif,Sans+Serif">
-    <title>Car Rental</title>
-</head>
-<body>
-    <header class="header">
-        <h1>Car Rental Iceland</h1>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu?category=Serif,Sans+Serif">
+        <title>Blue Car Rental</title>
+    </head>
+    <body>
+        <header class="head">
+            <img src="images/logo.png" alt="">
+            <nav>
+                <ul class="links">
+                    <li><a href="#">Our cars</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!--<a class="button" href="#"><Button>Book now</Button></a>-->
+        </header>
 
-    <main class="main">
-        <!--main is split into 2 columns here-->
-        <div class="two-columns-grid">
+        <main class="main">
+            <!--main is split into 2 columns here-->
+            <div class="col2">
+                <div class="textContainer">
+                    <h1>
+                        Book your<br />
+                        rental car<br />
+                        in Iceland<br />
+                        here<br />
+                    </h1>
+
+                </div>
+                <div class="container">
+                    <p> 
+                        ALL OUR PRICES INCLUDE:<br />
+                        CDW, SCDW, TP, GP INSURANCES, <br />
+                        UNLIMITED MILEAGE, VAT AND STUDDED <br />
+                        TIRES DURING WINTER.<br />
+                    </p>
+                    <div class="buttonCenter">
+                        <a class="button" href="#"><Button>Book now</Button></a>
+                        <a class="button" href="#"><Button>Manage booking</Button></a>
+                    </div>
+                </div>
+            </div>  
+        </main>
+        <section>
+            <h2>Life's too short to worry</h2>
+            <h3>We got you  covered</h3>
+            <div class="col3">
+                <div>
+                    <img src="images/image1.jpg" class="center">
+                    <ul class="listi2">
+                        <li>Free cancellation</li>
+                        <li>Pay on arrival for a worry free booking</li>
+                        <li>Modify your booking at any time</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/image2.jpg" class="center">
+                    <ul class="listi2">
+                        <li>Online check-in</li>
+                        <li>Zero waiting time</li>
+                        <li>Keybox Pick-up option</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/image3.jpg" class="center">
+                    <ul class="listi2">
+                        <li>Iceland's newest car selection</li>
+                        <li>24/7 service assistance</li>
+                        <li>Zero deposit</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <!--List with links-->
             <div>
-                <h3>Kia Rio</h3>
-                <img src="rio.png">
-                <p>Kia Rio is perfect for both short trips and long trips. You can comfortably fit 4 persons in the car and it has larger trunk space than the aygo. The average fuel consumption is low making the car perfect for economical renters. For budget car rental Iceland, Kia Rio is the best option.</p>
+                <dl class="test">
+                    <dt>Useful information</dt>
+                    <dd>FAQ's</dd>
+                    <dd>Insurances</dd>
+                    <dd>Driving in Iceland</dd>
+                    <dd>Terms and Conditions</dd>
+                </dl>
             </div>
             <div>
-                <h3>Kia Sportage</h3>
-                <img src="sportage.jpg">
-                <p>Kia Sportage has been a part of blue car rental since the beginning. There is a reason for that. Sportage is the most reliable vehicle we know. If you intend to drive all around the island or explore the highland you will not be disappointed with this selection. Not all of our Kia Sportage vehicles are the newer body of the car (2022)</p>
+                <ul class="list2">
+                    <li>
+                        <a class="icon" href="https://www.facebook.com">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>             
+                    </li>
+                    <li>
+                        <a class="icon" href="https://www.instagram.com">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>             
+                    </li>
+                    <li>
+                        <a class="icon" href="https://www.tiktok.com">
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                        </a>             
+                    </li>
+                </ul>
             </div>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <!--List with links-->
-        <ul>
-            <li> <a href="https://www.facebook.com">Facebook</a></li>
-            <li> <a href="https://www.instagram.com">Instagram</a></li>
-            <li> <a href="https://www.youtube.com">Youtube</a></li>
-        </ul>
-    </footer>
-
-</body>
+            <div>
+                <ul class="infoList">
+                    <li>Blue Car Rental ehf.</li>
+                    <li>Blikavellir 3</li>
+                    <li>235 Keflavík Airport</li>
+                    <li>Iceland</li>
+                    <li>E-mail: blue@bluecarrental.is</li>
+                    <li>Phone: +354 7737070</li>
+                </ul>
+            </div>
+            <!--<p>&copy; Óli Hafsteinn Hauth</p>-->
+        </footer>
+        <!--For icons-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
 </html>
